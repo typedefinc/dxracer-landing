@@ -210,6 +210,19 @@ a {
                 }
             }
         }
+        .buy_btn{
+            width: 180px;
+            height: 55px;
+            background-color:rgb(67, 151, 230);
+            color: #fff;
+            font-size: 12px;
+            text-transform: uppercase;
+            border: none;
+            margin-top: 50px;
+            text-align: center;
+            line-height: 55px;
+            border-radius: 45px;
+        }
     }
 }
 
@@ -275,6 +288,7 @@ a {
                 text-transform: uppercase;
                 border: none;
                 margin-top: 30px;
+                border-radius: 45px;
             }
         }
     }
@@ -313,4 +327,5 @@ footer {
         }
     }
 }
+
 

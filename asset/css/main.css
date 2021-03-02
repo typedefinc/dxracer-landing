@@ -42,11 +42,7 @@ a {
   height: 100vh;
   position: relative;
 }
-@media (max-width:700px){
-  .header{
-    height: 40vh;
-  }
-}
+
 .header .container {
   height: 100%;
 }
@@ -259,6 +255,20 @@ a {
   transform: scale(1.2);
 }
 
+.buyprod .buyprod_wrap .buy_btn {
+  width: 180px;
+  height: 55px;
+  background-color: #4397e6;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 45px;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -334,6 +344,7 @@ a {
   text-transform: uppercase;
   border: none;
   margin-top: 30px;
+  border-radius: 45px;
 }
 
 footer {
